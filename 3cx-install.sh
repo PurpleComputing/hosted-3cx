@@ -29,7 +29,7 @@ wget -O /tmp/post-install \
 
 chmod +x /tmp/post-install
 bash /tmp/post-install
-#bash /usr/local/bin/post-install
+bash /usr/local/bin/post-install
 
 # --- Step 2: Install 3CX PBX ---
 echo ""
