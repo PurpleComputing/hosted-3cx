@@ -27,6 +27,7 @@ echo "[1/2] Running 3CX post-install setup..."
 wget -O /tmp/post-install \
   http://downloads-global.3cx.com/downloads/debian12iso/post-install_12.1.0_46a7ea2.txt
 
+# BEEP
 chmod +x /tmp/post-install
 bash /tmp/post-install
 bash /usr/local/bin/post-install
